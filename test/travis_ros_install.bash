@@ -5,7 +5,6 @@ sudo apt-get update
 sudo python -m pip uninstall -y pip setuptools
 sudo apt-get -y remove python3-pip
 sudo apt-get -y remove python-pip
-pip install --upgrade pip
 pip install catkin_pkg
 pip install empy
 pip install pyyaml
