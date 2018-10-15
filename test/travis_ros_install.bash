@@ -2,6 +2,8 @@
 
 #required packages
 sudo apt-get update
+sudo python -m pip uninstall pip setuptools
+sudo apt-get remove python3-pip
 sudo apt-get remove python-pip
 pip install --upgrade pip
 pip install catkin_pkg
